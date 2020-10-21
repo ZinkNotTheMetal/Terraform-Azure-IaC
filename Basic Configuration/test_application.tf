@@ -1,7 +1,13 @@
 ########################################################################
 #  VARIABLES
 ########################################################################
-
+#variable "application_name" {}
+variable "resource_group" {
+    default = "Government_Business"
+}
+variable "region" {
+    default = "East US"
+}
 
 
 ########################################################################
@@ -18,15 +24,27 @@ provider "azurerm" {
 ########################################################################
 #  Resource Group
 ########################################################################
-resource "azurerm_resource_group" "application_resource_group" {
-    name     = "2-tier-resources"
-    location = "East US"
-}
+resource "azurerm_resource_group" "setup_resource_group" {
+    name     = var.resource_group
+    location = var.region
 
+    tags = {
+        AuthoredBy = "William Zink",
+        Team = "DevOps"
+        ServiceManagerTeam = "DevOps Solutions"
+    }
+}
 
 ########################################################################
 #  Virtual Network
 ########################################################################
+
+
+
+########################################################################
+#  Data
+########################################################################
+
 
 
 

@@ -33,7 +33,11 @@ Terraform v0.13.4
 ```
 terraform init
 ```
-3. Run
+3. Install Azure CLI   
+Done using [installation documentation](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-apt)
+```
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+```
 
 ## Tools
 - Visual Studio Code
