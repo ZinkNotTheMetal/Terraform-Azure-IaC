@@ -1,0 +1,24 @@
+1) Microsoft Azure: Big Picture
+   Rating: 3/10
+   Too high of level - just talks about resources and what you have access to use. The examples are real-world examples but not hands on.
+
+2) Azure for Developers: What to use when
+   Rating:
+
+3) Microsoft Azure Cloud Concepts
+   Rating: 
+
+4) Continuous Delivery and DevOps with Azure
+   Rating: 
+
+5) Manage Azure Kubernetes Services Infrastructure
+   Rating: 
+
+6) Intro to Azure App Services
+   Rating: 
+7) Microsoft Azure for Developers - Building Secure Services and Applications
+   Rating: 
+
+
+Honorable Mentions:
+ - Cloud Computing the Big Picture
